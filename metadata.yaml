@@ -2,8 +2,8 @@ composer:
   last: Tůma
   first: František Ignác Antonín
 title: De profundis et Memento
-genre: motet
-scoring: S, A, T, B (coro), cnto, fag, 2 trb, 2 vl, b, org
+genre: psalm
+scoring: S, A, T, B (solo), S, A, T, B (coro), cnto, fag, 2 trb, 2 vl, b, org
 license: cc-by-sa-4.0
 sources:
   B1:
@@ -13,5 +13,5 @@ sources:
     url: https://data.onb.ac.at/rec/AC14297572
     license: public domain
     principal: true
-    notes: parts for S (2×), A (2×), T (2×), B (2×), cnto, fag, trb1, trb 2, vl 1, vl 2, vlc, vlne, org, and maestro di cappella
+    notes: parts for S solo, A solo, S rip, A rip, T rip, B rip, cnto, fag, trb1, trb 2, vl 1, vl 2, vlc, vlne, org, and maestro di cappella
 imslp:
