@@ -4,17 +4,28 @@
 #(define option-instrument-name "trb 2")
 \include "score_settings/one-staff.ly"
 
+\paper { systems-per-page = #6 }
+
 \book {
   \bookpart {
-    \section "Adeste animæ"
+    \section "1" "De profundis"
     \addTocEntry
     \paper { indent = 2.5\cm }
     \score {
       <<
         \new Staff {
           \set Staff.instrumentName = "Trombone II"
-          \AdesteTromboneII
+          \DeProfundisTromboneII
         }
+      >>
+    }
+  }
+  \bookpart {
+    \section "2" "Memento Domine David"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \MementoTromboneII }
       >>
     }
   }

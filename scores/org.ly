@@ -6,16 +6,26 @@
 
 \book {
   \bookpart {
-    \section "Adeste animæ"
+    \section "1" "De profundis"
     \addTocEntry
     \paper { indent = 2\cm }
     \score {
       <<
         \new Staff {
           \set Staff.instrumentName = "Organo"
-          \AdesteOrgano
+          \DeProfundisOrgano
         }
-        \new FiguredBass { \AdesteBassFigures }
+        \new FiguredBass { \DeProfundisBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \section "2" "Memento Domine David"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \MementoOrgano }
+        \new FiguredBass { \MementoBassFigures }
       >>
     }
   }
